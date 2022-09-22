@@ -110,6 +110,17 @@
     .navbar .x-contact {
         display: block;
     }
+    .banner-child {
+        padding: 30px 0;
+    }
+
+    .banner-child .title-second {
+        font-size: 22px;
+    }
+
+    .banner-child .title-first {
+        font-size: 18px;
+    }
 }
 
 
