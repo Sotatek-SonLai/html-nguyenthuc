@@ -121,6 +121,21 @@
     .banner-child .title-first {
         font-size: 18px;
     }
+    .box-step .ct .title {
+        margin-top: 10px;
+    }
+
+    .b-menu .title {
+        font-size: 14px;
+    }
+
+    .m-body a {
+        font-size: 14px;
+    }
+
+    .lo-item {
+        margin-top: 10px;
+    }
 }
 
 
