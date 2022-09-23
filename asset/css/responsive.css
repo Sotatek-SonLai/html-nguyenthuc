@@ -30,6 +30,7 @@
     }
     .box-contact {
         max-width: 100%;
+        width: 100%;
     }
     .foot-right {
         flex-wrap: wrap;
@@ -135,6 +136,21 @@
 
     .lo-item {
         margin-top: 10px;
+    }
+    .title-child {
+        font-size: 18px;
+    }
+    form.form-send-info {
+        margin-bottom: 40px;
+    }
+    .menu-ads-lst a {
+        font-size: 14px;
+    }
+    .news-item .title {
+        font-size: 14px;
+    }
+    .tab-step h5 {
+        font-size: 18px;
     }
 }
 

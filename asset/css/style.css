@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
 :root {
     --baseColor: #CB0B11;
@@ -209,6 +209,9 @@ ul.navbar-nav {
     border-radius: 3px;
     color: #ffffff;
     font-weight: 800;
+}
+.btn-base:hover {
+    color: #fff;
 }
 .img-b{
     display: flex;
@@ -491,7 +494,7 @@ ul.navbar-nav {
     box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
     border-radius: 3px;
     padding: 20px 25px;
-    max-width: 320px;
+    max-width: 335px;
 }
 .box-contact .title {
     color: var(--baseColor);
@@ -870,6 +873,8 @@ li.nav-item a:hover {
     font-size: 20px;
     text-align: center;
     padding: 20px 0;
+    padding-bottom: 5px;
+    font-family: var(--font2);
 }
 .x-contact-top strong {
     color: #FFFFFF;
@@ -879,7 +884,7 @@ li.nav-item a:hover {
 }
 .b-menu .title {
     background: #E6E6E6;
-    padding: 8px 10px;
+    padding: 10px 10px;
     display: flex;
     align-items: center;
     font-weight: 700;
@@ -926,7 +931,7 @@ li.nav-item a:hover {
     padding: 15px;
 }
 .box-tv {
-    padding: 8px;
+    padding: 15px;
     background: #EDEDED;
     border-radius: 5px;
     margin-top: 20px;
@@ -1054,4 +1059,63 @@ li.nav-item a:hover {
 .dv-item .top strong{
     display: block;
     padding-left: 15px;
+    font-weight: 700;
+}
+.form-check-input:checked {
+    background: var(--baseColor);
+    border-color: var(--baseColor);
+}
+
+.form-send-info .form-control {
+    padding: 15px 15px;
+    border: 1px solid #E0E0E0;
+    border-radius: 3px;
+}
+
+form.form-send-info {
+    margin-top: 25px;
+}
+.dv-sl-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    min-height: 220px;
+    background: #F1F1F1;
+}
+.b-ks img {
+    margin-bottom: 2px;
+}
+.b-ks {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 8px;
+}
+
+.b-ks img {
+    margin-top: 4px;
+    margin-right: 8px;
+}
+
+.box-qt {
+    background: #F4F7F8;
+    /* Line color */
+
+    border: 1px solid #E0E0E0;
+    padding: 20px;
+}
+input.form-control {
+    height: 50px;
+    background: #F4F7F8;
+    /* Line color */
+
+    border: 1px solid #E0E0E0;
+    border-radius: 3px;
+}
+input[type=file] {
+    border: none;
+    height: auto;
+}
+.tab-step h5  {
+    font-weight: 700;
 }

@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/asset/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/asset/css/responsive.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/asset/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/asset/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dang-ky-tu-van-xac-thuc-tai-lieu.html" beforeDir="false" afterPath="$PROJECT_DIR$/dang-ky-tu-van-xac-thuc-tai-lieu.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dichvu-xac-thuc-tai-lieu-theo-yeu-cao.html" beforeDir="false" afterPath="$PROJECT_DIR$/dichvu-xac-thuc-tai-lieu-theo-yeu-cao.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +37,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -51,7 +53,11 @@
       <workItem from="1663726668861" duration="1001000" />
       <workItem from="1663738971526" duration="9704000" />
       <workItem from="1663820720396" duration="8980000" />
-      <workItem from="1663840893525" duration="5691000" />
+      <workItem from="1663840893525" duration="5755000" />
+      <workItem from="1663850327272" duration="3953000" />
+      <workItem from="1663892906816" duration="2014000" />
+      <workItem from="1663900266528" duration="716000" />
+      <workItem from="1663912116656" duration="4533000" />
     </task>
     <servers />
   </component>
