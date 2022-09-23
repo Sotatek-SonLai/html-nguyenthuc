@@ -164,6 +164,19 @@
     .bank-item img {
         width: 65px;
     }
+    .news-full .img {
+        width: 150px;
+        height: 115px;
+    }
+
+    .news-full .ct .txt {
+        -webkit-line-clamp: 2;
+    }
+
+    .news-inline .ct {
+        width: calc(100% - 30px);
+        bottom: 15px;
+    }
 }
 @media (min-width: 769px) {
 

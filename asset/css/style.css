@@ -208,7 +208,7 @@ ul.navbar-nav {
     background: linear-gradient(90deg, #F14950 8.15%, #DA1C21 66.27%);
     border-radius: 3px;
     color: #ffffff;
-    font-weight: 800;
+    font-weight: 500;
 }
 .btn-base:hover {
     color: #fff;
@@ -424,6 +424,14 @@ ul.navbar-nav {
     font-family: var(--font2);
     text-align: left;
     color: #444444;
+
+    word-break: break-word;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
 }
 .news-item{
     margin-bottom: 20px;
@@ -931,7 +939,7 @@ li.nav-item a:hover {
     padding: 15px;
 }
 .box-tv {
-    padding: 15px;
+    padding: 20px 15px;
     background: #EDEDED;
     border-radius: 5px;
     margin-top: 20px;
@@ -1118,4 +1126,160 @@ input[type=file] {
 }
 .tab-step h5  {
     font-weight: 700;
+}
+.news-inline{
+    position: relative;
+}
+.news-inline .img {
+    height: 380px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.news-inline .img img {
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+.news-inline .ct {
+    position: absolute;
+    width: calc(100% - 40px);
+    bottom: 20px;
+    background: #F4F7F8;
+    padding: 10px 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.news-inline a{
+    color: #666666;
+}
+.news-inline:hover .title {
+    color: var(--baseColor) !important;
+}
+.news-inline .ct .txt {
+    line-height: 22px;
+    word-break: break-word;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.news-inline .ct .title {
+    color: #444444;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: var(--font2);
+    margin-bottom: 10px;
+    line-height: 22px;
+    word-break: break-word;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.news-full a{
+    display: flex;
+    text-decoration: none;
+}
+.news-full:hover .title{
+    color: var(--baseColor) !important;
+}
+
+.news-full .img {
+    width: 210px;
+    height: 140px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.news-full .img img {
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+.news-full .ct .txt{
+    line-height: 22px;
+    color: #666666;
+    font-size: 14px;
+    word-break: break-word;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.news-full .ct {
+    flex: 1;
+    padding-left: 15px;
+}
+.news-full .ct .title {
+    color: #444444;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 4px;
+    font-family: var(--font2);
+    line-height: 22px;
+    word-break: break-word;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.page-link{
+    border: 1px solid #666666 !important;
+    border-radius: 4px;
+    margin-left: 10px !important;
+    display: inline-block;
+    font-weight: 800;
+    font-size: 16px;
+    color: #666666;
+}
+.page-link:hover{
+    color: #fff;
+    background: var(--baseColor);
+    border-color: var(--baseColor) !important;
+}
+.page-item:first-child .page-link{
+    margin-left: 0 !important;
+}
+.page-link.active {
+    background: var(--baseColor);
+    color: #fff;
+    border-color: var(--baseColor) !important;
+}
+
+.news-full .news-date {
+    margin-top: 5px;
+}
+.detail-news .title {
+    color: #444444;
+    font-weight: 700;
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+.box-tv-detail .title-child{
+    font-size: 20px;
+}
+.box-tv-detail .logo{
+    width: 110px;
+    margin-bottom: 20px;
+}
+.title-ques{
+  color:  #444444;
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 25px;
+    display: flex;
+}
+.title-ques img {
+    margin-right: 10px;
 }
