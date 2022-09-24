@@ -388,6 +388,7 @@ ul.navbar-nav {
 }
 .news-date img {
     margin-right: 8px;
+    width: 16px;
 }
 .news-item-extra a {
     text-decoration: none;
@@ -1121,6 +1122,9 @@ input.form-control {
     border: 1px solid #E0E0E0;
     border-radius: 3px;
 }
+textarea {
+    background: #F4F7F8 !important;
+}
 input[type=file] {
     border: none;
     height: auto;
@@ -1379,3 +1383,9 @@ input[type=file] {
 }
 
 .ct-i span {flex: 1;}
+.box-lh {
+    padding: 70px 0;
+
+    background: url("../images/bg-lh.png") no-repeat;
+    background-size: cover;
+}
