@@ -1355,3 +1355,27 @@ input[type=file] {
 .size12{
     font-size: 12px;
 }
+.p-info{
+    max-width: 500px;
+    margin: 0 auto;
+}
+.ct-title{
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 25px;
+}
+.ct-i {
+    display: flex;
+    align-items: flex-start;
+}
+.ct-i i {
+    margin-right: 8px;
+    margin-top: 5px;
+}
+
+.ct-i strong {
+    white-space: nowrap;
+    margin-right: 6px;
+}
+
+.ct-i span {flex: 1;}
