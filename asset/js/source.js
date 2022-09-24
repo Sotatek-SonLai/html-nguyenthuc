@@ -17,3 +17,8 @@ if(widthScreen < 560){
     })
 
 }
+$(".slide-activity").slick({
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    arrows: true,
+})

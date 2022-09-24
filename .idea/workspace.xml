@@ -4,6 +4,9 @@
     <list default="true" id="8e26fdf8-c7f7-4ef5-af42-95e32c06ff6a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/asset/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/asset/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/images/icon/plan/14.svg" beforeDir="false" afterPath="$PROJECT_DIR$/asset/images/icon/plan/14.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/images/icon/plan/3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/asset/images/icon/plan/3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/js/source.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/source.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gioi-thieu.html" beforeDir="false" afterPath="$PROJECT_DIR$/gioi-thieu.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +62,8 @@
       <workItem from="1663926259798" duration="4502000" />
       <workItem from="1663950523163" duration="1661000" />
       <workItem from="1663952955170" duration="28000" />
-      <workItem from="1663987851929" duration="8131000" />
+      <workItem from="1663987851929" duration="8159000" />
+      <workItem from="1664013153226" duration="2938000" />
     </task>
     <servers />
   </component>
