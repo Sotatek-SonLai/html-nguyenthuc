@@ -1389,3 +1389,146 @@ input[type=file] {
     background: url("../images/bg-lh.png") no-repeat;
     background-size: cover;
 }
+.box-dh{
+
+    /* BG color 1 */
+
+    background: #F4F7F8;
+    box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.dh-bank {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dh-bank img {
+    width: 110px;
+    padding: 20px 30px;
+}
+.dh-head{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E0E0E0;
+}
+.box-dh {
+    padding-top: 20px;
+}
+.dh-plus{
+    display: flex;
+}
+.dh-plus strong {
+    font-weight: 800;
+    font-size: 42px;
+    color: var(--baseColor);
+    font-family: var(--font2);
+}
+.dh-plus strong {
+    color: var(--baseColor);
+    font-family: var(--font2);
+    padding-left: 8px;
+}
+.plans{
+    display: flex;
+    position: relative;
+    padding-top: 40px;
+    margin-bottom: 60px;
+}
+.plans > div{
+    width: 50%;
+}
+
+.plan-box {
+    padding: 10px 0;
+    text-align: right;
+}
+
+.plan-box.plan-box-7 {
+    margin-top: 50px;
+}
+
+.plan-box.plan-box-6 {
+    margin-top: 30px;
+}
+
+.plan-box.plan-box-5 {
+    margin-top: 90px;
+}
+
+.plan-box.plan-box-11 {
+    margin-top: 0px;
+}
+
+.plan-box.plan-box-4 {
+    margin-top: 0px;
+}
+
+.plan-box.plan-box-10 {
+    margin-top: -2px;
+}
+
+.plan-box.plan-box-3 {
+    margin-top: 0px;
+}
+
+.plan-box.plan-box-9 {
+    margin-top: 0px;
+}
+
+.plan-box.plan-box-2 {
+    margin-top: 10px;
+}
+
+.plan-box.plan-box-8 {
+    margin-top: 60px;
+}
+
+.plan-box .txt {
+    font-weight: 500;
+    font-size: 14px;
+    color: #2C2C2C;
+    font-family: var(--font2);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    /* padding-right: 85px; */
+    max-width: 488px;
+    margin-left: auto;
+    transform: translateX(-88px);
+}
+
+.right .plan-box .txt {
+    text-align: left;
+    padding-right: 0;
+    transform: translateX(-68px);
+}
+.plans .line {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    width: fit-content;
+}
+.plan-box .date {
+    position: relative;
+    width: 318px;
+    height: 46px;
+    transform: translateX(343px);
+}
+
+.right .plan-box .date {
+    transform: translateX(-14px);
+}
+.plan-box .date span {
+    position: absolute;
+    top: 50%;
+    left: 114px;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: var(--font2);
+}
+
+.right .plan-box .date span {
+    left: 180px;
+}
