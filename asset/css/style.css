@@ -10,6 +10,7 @@
     box-sizing: border-box;
     outline: none;
 }
+
 a, button{
     transition: .3s;
 }
@@ -682,7 +683,7 @@ button.navbar-toggler {
 .x-contact{
     position: relative;
     padding-left: 45px;
-    height: 42px;
+    height: 40px;
     border: 1px solid var(--baseColor);
     border-radius: 4px;
     border-top-left-radius: 30px;
@@ -691,6 +692,8 @@ button.navbar-toggler {
 }
 .x-contact strong{
     color: var(--baseColor);
+    line-height: 21px;
+    font-weight: 700;
 }
 .x-contact-top {
     border-color: #fff;
@@ -699,8 +702,8 @@ button.navbar-toggler {
     text-decoration: none;
 }
 .x-contact .icon {
-    width: 42px;
-    height: 42px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     background: var(--baseColor);
     position: absolute;
@@ -735,10 +738,11 @@ button.navbar-toggler {
 }
 
 .x-contact .txt div {
-    font-size: 14px;
+    font-size: 13px;
     line-height: 14px;
     padding-top: 3px;
-    color: #2c2c2c
+    color: #2c2c2c;
+    font-weight: 500;
 }
 .x-contact-top .txt div {
     color: #fff;
@@ -1657,4 +1661,8 @@ input[type=file] {
     padding: 60px 0;
     background: url("../images/bg-gia-tri.png") no-repeat;
     background-size: cover;
+}
+.btn-base:focus {
+    border-color: var(--baseColor);
+    color: #fff;
 }
