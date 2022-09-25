@@ -13,6 +13,9 @@
 
 /*tablet*/
 @media (max-width: 768px) {
+    .des-img{
+        font-size: 14px;
+    }
     .foot-left {
         flex-wrap: wrap;
         justify-content: center;

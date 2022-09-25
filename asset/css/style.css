@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
 :root {
-    --baseColor: #CB0B11;
+    --baseColor: #EE1D23;
     --fontBase: 'Roboto', sans-serif;
     --font2: 'Montserrat', sans-serif;
 }
@@ -273,7 +273,7 @@ ul.navbar-nav {
     position: absolute;
     top: 50%;
     left: 0;
-    width: calc(50% - 20px);
+    width: calc(50% - 35px);
     height: 1px;
     background: #2C2C2C;
     transform: translateY(-50%);
@@ -283,7 +283,7 @@ ul.navbar-nav {
     position: absolute;
     top: 50%;
     right: 0;
-    width: calc(50% - 25px);
+    width: calc(50% - 35px);
     height: 1px;
     background: #2C2C2C;
     transform: translateY(-50%);
@@ -866,6 +866,7 @@ li.nav-item a:hover {
     margin-bottom: 15px;
 }
 .btn-step {
+    font-weight: 700;
     background: linear-gradient(90deg, #F14950 8.15%, #DA1C21 66.27%);
     border-radius: 10px 0px;
     display: inline-block;
@@ -1665,4 +1666,11 @@ input[type=file] {
 .btn-base:focus {
     border-color: var(--baseColor);
     color: #fff;
+}
+.des-img{
+    font-weight: 400;
+    color: #666666;
+    font-style: italic;
+    text-align: center;
+    padding: 0 10px;
 }
